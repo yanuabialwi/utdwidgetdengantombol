@@ -108,20 +108,6 @@ abb.innerHTML +='Download APK';
 buttonblue.appendChild(abb);
 buttons.appendChild(buttonblue);
 }
-container.append(buttons);
-  var powered=document.createElement('div');
-powered.setAttribute('class','by');
-var apowered=document.createElement('a');
-apowered.setAttribute('href','https://blog.en.uptodown.com/widget/');
-apowered.setAttribute('target','_blank');
-var minilogo=document.createElement('img');
-minilogo.setAttribute('src','https://stc.utdstc.com/widget/minilogo.png');
-minilogo.setAttribute('alt','Uptodown logo');
-apowered.appendChild(minilogo);
-apowered.innerHTML +='Powered by Uptodown';
-powered.appendChild(apowered);
-container.append(powered);
-}
 }catch(e){
 console.debug(e);
 }
