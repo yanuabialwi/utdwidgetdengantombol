@@ -13,7 +13,7 @@ var app=getAppID(jQuery(this));
 if (!app){
 return false;
 }
-jQuery.get('//api.uptodown.com/en/9d2b1ad5bbc16c44d49116dc213c53f2/app?1587206545',{
+jQuery.get('https://api.uptodown.com/en/9d2b1ad5bbc16c44d49116dc213c53f2/app?1587206545',{
 domain:domain,packagename:app,})
 .done(function(response){
 try{
@@ -22,7 +22,7 @@ container.html('');
  var css=document.createElement('link');
 css.setAttribute('rel','stylesheet');
 css.setAttribute('type','text/css');
-css.setAttribute('href','//api.uptodown.com/widget/widget.css?1587206545');
+css.setAttribute('href','https://api.uptodown.com/widget/widget.css?1587206545');
 document.head.appendChild(css);
  var ico=document.createElement('div');
 ico.setAttribute('class','ico');
