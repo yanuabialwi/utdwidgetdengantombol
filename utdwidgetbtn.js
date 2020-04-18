@@ -22,7 +22,7 @@ container.html('');
  var css=document.createElement('link');
 css.setAttribute('rel','stylesheet');
 css.setAttribute('type','text/css');
-css.setAttribute('href','https://api.uptodown.com/widget/widget.css?1587206545');
+css.setAttribute('href','https://api.uptodown.com/widget/widget.css?1587206323');
 document.head.appendChild(css);
  var ico=document.createElement('div');
 ico.setAttribute('class','ico');
